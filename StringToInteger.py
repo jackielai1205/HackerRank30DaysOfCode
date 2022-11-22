@@ -1,11 +1,7 @@
-
-import math
-import os
-import random
-import re
-import sys
-
+try:
+    result = int(input())
+    print(result)
+except ValueError:
+    print("Bad String")
 
 
-if __name__ == '__main__':
-    S = input()
